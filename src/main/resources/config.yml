@@ -1,0 +1,36 @@
+# reloadMessage: The message players see after reloading the plugin
+# noPermMessage: The message players see after trying to reload the plugin without permission
+# resetSoonMessage: The message players see on intervals
+# resetStartMessage: The message players see when the plugin starts to reset mines
+# resetEndMessage: The message players see when the plugin finishes resetting mines
+# resetHelpMessage: The message players see after using the reset command without arguments
+# noMineMessage: The message players see after trying to reset a nonexistent mine
+# resetMessage: The message players see after resetting a mine
+# resetAllMessage: The message players see after resetting all mines
+# teleportHelpMessage: The message players see after using the teleport command without arguments
+# teleportMessage: The message players see after teleporting to a mine
+# consoleMessage: The message sent to console after it tries to use a command it cannot
+# helpMessage: The message players see after using the help command
+# resetInterval: The reset interval in minutes
+
+general:
+  reloadMessage: '&eSuccessfully reloaded SquidMines!'
+  noPermMessage: '&4You do not have access to that command.'
+  resetSoonMessage: '&eAll mines will be reset in &6<time>&e!'
+  resetStartMessage: '&eAll mines are being reset...'
+  resetEndMessage: '&eAll mines have been reset!'
+  resetHelpMessage: '&eUsage: &6/squidmines reset [mine]&e.'
+  noMineMessage: '&eSorry, but there is no mine called &6<mine>&e!'
+  resetMessage: '&eYou have reset the &6<mine> &emine!'
+  resetAllMessage: '&eYou have reset all mines!'
+  teleportHelpMessage: '&eUsage: &6/squidmines teleport [mine]&e.'
+  teleportMessage: '&eYou have teleported to the &6<mine> &emine!'
+  consoleMessage: 'Sorry, but you cannot use this command.'
+  helpMessage:
+  - '&6Oo-----------------------oOo-----------------------oO'
+  - '&2/squidmines reload &f- &aReload the plugin'
+  - '&2/squidmines reset [mine] &f- &aReset a mine'
+  - '&2/squidmines teleport [mine] &f- &aTeleport to a mine'
+  - '&6Oo-----------------------oOo-----------------------oO'
+settings:
+  resetInterval: 15

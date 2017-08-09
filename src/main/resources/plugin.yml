@@ -1,0 +1,33 @@
+name: SquidMines
+version: ${project.version}
+main: me.inksquid.squidmines.SquidMines
+depend: [WorldEdit, WorldGuard]
+commands:
+  squidmines:
+    description: Reload the plugin
+    permission: squidmines.help
+    usage: "Usage: /squidmines [reload/reset/teleport/setspawn]"
+permissions:
+  squidmines.*:
+    description: Gives access to all permissions.
+    default: op
+    children:
+      squidmines.help: true
+      squidmines.reload: true
+      squidmines.reset: true
+      squidmines.teleport: true
+  squidmines.help:
+    description: Allows you to get command help
+    default: op
+  squidmines.reload:
+    description: Allows you to reload the plugin
+    default: op
+  squidmines.reset:
+    description: Allows you to reset a mine
+    default: op
+  squidmines.teleport:
+    description: Allows you to teleport to a mine
+    default: op
+  squidmines.setspawn:
+    description: Allows you to setspawn to a mine
+    default: op
